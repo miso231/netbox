@@ -93,7 +93,7 @@ AUTH_LDAP_GROUP_SEARCH = LDAPSearch("dc=example,dc=com", ldap.SCOPE_SUBTREE,
 AUTH_LDAP_GROUP_TYPE = GroupOfNamesType()
 
 # Define a group required to login.
-AUTH_LDAP_REQUIRE_GROUP = "CN=NETBOX_USERS,DC=example,DC=com"
+AUTH_LDAP_REQUIRE_GROUP_DN = "CN=NETBOX_USERS,DC=example,DC=com"
 
 # Mirror LDAP group assignments.
 AUTH_LDAP_MIRROR_GROUPS = True
